@@ -1,0 +1,11 @@
+[package]
+name = "rust"
+version = "1.0.0"
+edition = "2018"
+
+[[bin]]
+name = "parts-1-and-2"
+path = "src/parts-1-and-2.rs"
+
+[dependencies]
+regex = "1.4.2"
